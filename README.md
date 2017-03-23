@@ -15,7 +15,7 @@
 
     `git clone git@github.com:VyacheslavLukin/Innopolis-school.git`
     
-2. В PyCharm необходимо настроить интерпретатор, чтобы он использовал `virtualenv`, для этого нужно сделать следущюее:
+2. В PyCharm необходимо настроить интерпретатор, чтобы он использовал `virtualenv`, для этого нужно сделать следующее:
 - Зайти в File -> Settings -> Project:Innopolis-school
 ![Pycharm virtualenv config](help/pycharm_virtualenv.png)
 В появившемся окне указать название проекта.
