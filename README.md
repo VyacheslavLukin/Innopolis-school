@@ -3,7 +3,7 @@
 
 # С чего начать
 ## Установка ПО
-1. Установть IDE [PyCharm](https://www.jetbrains.com/pycharm/). Т.к. для разработки используется `python`, то логично использовать
+1. Установить IDE [PyCharm](https://www.jetbrains.com/pycharm/). Т.к. для разработки используется `python`, то логично использовать
 2. Установить `virtualenv`.  
 В Linux это делается одной командой:
 `pip install virtualenv`.
@@ -12,10 +12,22 @@
 
 ## Настройка среды разработки
 1. Клонировать репозиторий из git
+В PyCharm создаем проект
+![Create project from git repo](help/create_project_from_git.png)
 
-    `git clone git@github.com:VyacheslavLukin/Innopolis-school.git`
+В настройках указываем наш git репозиторий и путь, где будет лежать проект.
+![git clone](help/clone_git.png)
+
+Другой вариант, использовать консоль:
+
+    git clone https://github.com/VyacheslavLukin/Innopolis-school.git
     
 2. В PyCharm необходимо настроить интерпретатор, чтобы он использовал `virtualenv`, для этого нужно сделать следующее:
-- Зайти в File -> Settings -> Project:Innopolis-school
+- Зайти в ``File -> Settings -> Project:Innopolis-school``
 ![Pycharm virtualenv config](help/pycharm_virtualenv.png)
 В появившемся окне указать название проекта.
+
+3. Установка зависимостей проекта `pip install -r requirements.txt`
+
+# Что дальше?
+to be continued
