@@ -3,7 +3,7 @@
 
 # С чего начать
 ## Установка ПО
-1. Установить IDE [PyCharm](https://www.jetbrains.com/pycharm/). Т.к. для разработки используется `python`, то логично использовать
+1. Установить IDE [PyCharm](https://www.jetbrains.com/pycharm/). Т.к. для разработки используется `python`, то логично использовать именно эту среду разработки.
 2. Установить `virtualenv`.  
 В Linux это делается одной командой:
 `pip install virtualenv`.
