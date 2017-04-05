@@ -1,6 +1,10 @@
 # О проекте
 Совместно с ребятами из школы Иннополис создаем сайт для школы.
 
+<aside class="notice">
+Все инструкции для Linux.
+</aside>
+
 # С чего начать
 ## Установка ПО
 1. Установить IDE [PyCharm](https://www.jetbrains.com/pycharm/). Т.к. для разработки используется `python`, то логично использовать именно эту среду разработки.
@@ -15,7 +19,7 @@
 В PyCharm создаем проект
 ![Create project from git repo](help/create_project_from_git.png)
 
-В настройках указываем наш git репозиторий и путь, где будет лежать проект.
+В настройках указываем наш git репозиторий и путь проекта, где будет лежать проект.
 ![git clone](help/clone_git.png)
 
 Другой вариант, использовать консоль:
@@ -25,9 +29,15 @@
 2. В PyCharm необходимо настроить интерпретатор, чтобы он использовал `virtualenv`, для этого нужно сделать следующее:
 - Зайти в ``File -> Settings -> Project:Innopolis-school``
 ![Pycharm virtualenv config](help/pycharm_virtualenv.png)
-В появившемся окне указать название проекта.
+
+`virtualenv` будет лежать прям в папке проекта, поэтому указываем путь проекта
+![virtualenv path](help/virtualenv.png)
+
 
 3. Установка зависимостей проекта `pip install -r requirements.txt`
 
 # Что дальше?
-to be continued
+1. Проверить, что окружение настроено правильно - запустить веб-сервер flask
+`./run.py`
+
+В браузере перейти на ``http://localhost:5000`` и увидеть **Hello World!**
