@@ -31,6 +31,7 @@
 ![Pycharm virtualenv config](help/pycharm_virtualenv.png)
 
 `virtualenv` будет лежать прям в папке проекта, поэтому указываем путь проекта
+
 ![virtualenv path](help/virtualenv.png)
 
 
